@@ -1,0 +1,233 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.logo-img {
+    width: 200px; 
+    height: 80px; 
+}
+
+.nomor-telepon {
+    font-size: 14px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #DBE9B7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 10px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #99A98F;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    opacity: 0.9;
+    background-color: #D8CCA3;
+}
+
+nav ul ul {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    padding: 10px;
+    background-color: #DBE9B7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul li {
+    width: 100px;
+    float: none;
+    display: list-item;
+    position: relative;
+    border-bottom: 1px solid #99A98F;
+}
+
+.profil {
+    background-color: #f1ffe9;
+    padding: 20px;
+    text-align: center;
+}
+
+.profil h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profil p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+}
+
+section {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+}
+
+section h2 {
+    display: flex;
+}
+
+.artikel {
+    padding: 20px;
+}
+
+.artikel article {
+    margin-bottom: 20px;
+}
+
+.artikel article .content-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.artikel article img {
+    width: 200px; 
+    height: auto;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.artikel h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #99A98F;
+}
+
+.artikel p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+article:hover {
+    opacity:0.9;
+}
+
+.more-button {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #DBE9B7;
+    color: #99A98F;
+    text-decoration: none;
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.map-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.map-overlay a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.map-section-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    align-items: center;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+.footer-year {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.telephone {
+    margin-top: 10px;
+}
+.telephone img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.footer-social {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+.footer-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-social li a img {
+    width: 20px;
+    height: 20px;
+}
+.footer-button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
